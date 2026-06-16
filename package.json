@@ -1,20 +1,56 @@
-{
-  "name": "app",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
-  "dependencies": {
-    "expo": "~54.0.33",
-    "expo-status-bar": "~3.0.9",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "react-native": "0.81.5",
-    "react-native-web": "^0.21.0"
-  },
-  "private": true
-}
+const DATA = [
+    {
+      id: '1',
+      nome: 'A Forja',
+      nota: '8.5',
+      imagem: 'a-forja.jpg',
+    },
+    {
+      id: '2',
+      nome: 'Chappie',
+      nota: '8.0',
+      imagem: 'chappie.jpg',
+    },
+    {
+      id: '3',
+      nome: 'Círculo de Fogo',
+      nota: '8.3',
+      imagem: 'circulo-de-fogo.jpg',
+    },
+    {
+      id: '4',
+      nome: 'Como Mágica',
+      nota: '9.6',
+      imagem: 'como-magica.jpg',
+    },
+    {
+      id: '5',
+      nome: 'Interstellar',
+      nota: '9.5',
+      imagem: 'interestelar.jpg',
+    },
+    {
+      id: '6',
+      nome: 'Jogos Vorazes: Amanhecer na Colheita',
+      nota: '9.0',
+      imagem: 'jogos-vorazes_amanhecer-na-colheita.jpg',
+    },
+    {
+      id: '7',
+      nome: 'Velozes & Furiosos',
+      nota: '7.5',
+      imagem: 'os-velozes-e-furiosos.jpg',
+    },
+    {
+      id: '8',
+      nome: 'Avengers: Doomsday',
+      nota: '8.8',
+      imagem: 'vingadores-doomsday.jpg',
+    },
+    {
+      id: '9',
+      nome: 'Whiplash: Em Busca da Perfeição',
+      nota: '9.3',
+      imagem: 'whiplash.jpg',
+    }
+  ];
